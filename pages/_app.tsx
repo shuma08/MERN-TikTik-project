@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 
-import '../styles/globals.css'
+import '../styles/main.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [isSSR, setIsSSR] = useState(true);
